@@ -28,7 +28,7 @@ public class Posicao {
 
     @Override
     public String toString(){
-        return "linha"+"coluna";
+        return linhaDoTabuleiro +","+colunaDoTabuleiro;
 
 
     }
