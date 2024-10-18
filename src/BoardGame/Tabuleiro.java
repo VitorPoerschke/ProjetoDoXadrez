@@ -27,4 +27,13 @@ public class Tabuleiro {
     public void setTabuleirocoluna(int tabuleirocoluna) {
         this.tabuleirocoluna = tabuleirocoluna;
     }
+
+    public Pesa pesa(int linha, int coluna){
+        return pesas[linha][coluna];
+    }
+    public Pesa pesa(Posicao posicao){
+        return pesas[posicao.getLinhaDoTabuleiro()][posicao.getColunaDoTabuleiro()];
+    }
+
+
 }
